@@ -1,7 +1,7 @@
 import React from 'react'
-import TeamBox from './Generics/TeamBox'
-import SectionTitle from './Generics/SectionTitle'
-import Button from './Generics/Button'
+import TeamBox from './generics.js/TeamBox'
+import SectionTitle from './generics.js/SectionTitle'
+import Button from './generics.js/Button'
 
 import img_Kristine from '../assets/img/team/k-palmer.png'
 import img_Mark from '../assets/img/team/m-aubri.png'

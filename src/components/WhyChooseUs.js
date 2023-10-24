@@ -1,6 +1,6 @@
 import React from 'react'
-import SectionTitle from './Generics/SectionTitle'
-import ChooseUsPointsBox from './Generics/ChooseUsPointsBox'
+import SectionTitle from './generics.js/SectionTitle'
+import ChooseUsPointsBox from './generics.js/ChooseUsPointsBox'
 
 import img_Thumbs from '../assets/img/choose-us/thumbs-up.svg'
 import img_Penta from '../assets/img/choose-us/penta.svg'

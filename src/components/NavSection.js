@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './Generics/Button'
+import Button from './generics.js/Button'
 
 import img_critoLogo from '../assets/img/header/Logotype.svg'
 
@@ -24,15 +24,15 @@ const NavSection = () => {
                     </div>
                     <div className="content-box last">
                         <i className="fa-light fa-location-dot"></i>
-                        <a href="https://maps.app.goo.gl/JUjns7mUxx5Q5QEL8" target="_blank">Sveavägen 31 111 34
+                        <a href="https://maps.app.goo.gl/JUjns7mUxx5Q5QEL8" target="_blank" rel="noreferrer">Sveavägen 31 111 34
                             Stockholm</a>
                     </div>
                 </div>
                 <div className="social-media">
-                    <a href="https://facebook.com" target="_blank"><i className="fa-brands fa-facebook"></i></a>
-                    <a href="https://twitter.com" target="_blank"><i className="fa-brands fa-x-twitter"></i></a>
-                    <a href="https://instagram.com" target="_blank"><i className="fa-brands fa-instagram"></i></a>
-                    <a href="https://linkedin.com" target="_blank"><i className="fa-brands fa-linkedin"></i></a>
+                    <a href="https://facebook.com" target="_blank" rel="noreferrer"><i className="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com" target="_blank" rel="noreferrer"><i className="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://instagram.com" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i></a>
+                    <a href="https://linkedin.com" target="_blank" rel="noreferrer"><i className="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
             <div className="main-menu">

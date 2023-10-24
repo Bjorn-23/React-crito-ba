@@ -1,4 +1,5 @@
 import React from 'react'
+
 import Header from '../components/Header'
 import Showcase from '../components/Showcase'
 import Clients from '../components/Clients'
@@ -13,9 +14,11 @@ import ArticlesNews from '../components/ArticlesNews'
 import Subscribe from '../components/Subscribe'
 import Footer from '../components/Footer'
 
+
 const Home = () => {
   return (
     <div className="wrapper">
+
     <Header />
     <Showcase />
     <Clients />
@@ -29,9 +32,6 @@ const Home = () => {
     <ArticlesNews />
     <Subscribe />
     <Footer />
-
-
-
 
   </div>
   )

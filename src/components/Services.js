@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from './Generics/Button'
-import ServiceBox from './Generics/ServiceBox'
-import SectionTitle from './Generics/SectionTitle'
+import Button from './generics.js/Button'
+import ServiceBox from './generics.js/ServiceBox'
+import SectionTitle from './generics.js/SectionTitle'
 import img_ServiceLines from '../assets/img/services/white-squiggly-lines-services.svg'
 
 const Services = () => {

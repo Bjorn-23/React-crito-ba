@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from './Generics/Button'
-import ProjectsBox from './Generics/ProjectsBox'
-import SectionTitle from './Generics/SectionTitle'
+import Button from './generics.js/Button'
+import ProjectsBox from './generics.js/ProjectsBox'
+import SectionTitle from './generics.js/SectionTitle'
 
 import img_Growth from '../assets/img/projects/top-lft.png'
 import img_Responsive from '../assets/img/projects/top-rgt.png'
