@@ -42,7 +42,6 @@ const NavSection = () => {
                     <div className="main-menu">
                         <nav>
                             <NavLink to="/">Home</NavLink>
-                            <NavLink to="/services">Services</NavLink>
                             <NavLink to="/news">News</NavLink>
                             <NavLink to="/articles">Articles</NavLink>
                             <NavLink to="/contact">Contact</NavLink>

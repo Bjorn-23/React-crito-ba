@@ -8,6 +8,7 @@ import Home from './views/Home';
 import Contact from './views/Contact';
 import NotFound from './views/NotFound';
 import News from './views/News';
+import Articles from './views/Articles';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -18,6 +19,7 @@ root.render(
           <Route path='/' element={<Home />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/news' element={<News />}  />
+          <Route path='/articles' element={<Articles />}  />
           <Route path='/*' element={<NotFound />} />
         </Routes>
     </BrowserRouter>
