@@ -2,7 +2,7 @@ import React from 'react'
 
 import Header from '../components/Header'
 import Breadcrumbs from '../components/Breadcrumbs'
-import ArticlesNews from '../components/ArticlesNews'
+import ArticlesNewsFull from '../components/ArticlesNewsFull'
 import Footer from '../components/Footer'
 
 const News = () => {
@@ -10,7 +10,7 @@ const News = () => {
     <div className="wrapper">
       <Header />
       <Breadcrumbs url="/News" page="News" />
-      <ArticlesNews />
+      <ArticlesNewsFull />
       <Footer />
     </div>
 

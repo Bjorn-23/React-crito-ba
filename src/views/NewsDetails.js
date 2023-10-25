@@ -5,15 +5,15 @@ import Breadcrumbs from '../components/Breadcrumbs'
 import Footer from '../components/Footer'
 import ArticlesNewsFull from '../components/ArticlesNewsFull'
 
-const Articles = () => {
+const NewsDetails = () => {
   return (
     <div className="wrapper">
-    <Header />
-    <Breadcrumbs url="/articles" page="Articles"  />
-    <ArticlesNewsFull />
-    <Footer />
-  </div>
+      <Header />
+      <Breadcrumbs url="/NewsDetails" page="NewsDetails" />
+      <ArticlesNewsFull />
+      <Footer />
+    </div>
   )
 }
 
-export default Articles
+export default NewsDetails

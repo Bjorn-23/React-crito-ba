@@ -1,6 +1,6 @@
 import React from 'react'
 import ArticlesBox from './generics.js/ArticlesBox'
-import Button from './generics.js/Button'
+// import Button from './generics.js/Button'
 import SectionTitle from './generics.js/SectionTitle'
 
 import img_25mar from '../assets/img/articles-news/25mar.png'
@@ -21,12 +21,12 @@ const ArticlesNews = () => {
                 <div className="top">
 
                     <div className="top-lft">
-                        <SectionTitle title="Get All Of Our Articles & News" orangeText="Articles & News"/>
+                        <SectionTitle title="Our News & Articles" orangeText=""/>
                     </div>
 
                     <div className="top-rgt">
                         <div className="articles-btn-container">
-                            <Button type="transparentFat" title="Browse Articles" url="/news" />
+                            {/* <Button type="transparentFat" title="Browse Articles" url="/news" /> */}
                         </div>
                     </div>
 

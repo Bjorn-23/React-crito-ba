@@ -5,10 +5,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 import Home from './views/Home';
+import Services from './components/Services';
+import News from './views/News';
+import NewsDetails from './views/NewsDetails';
 import Contact from './views/Contact';
 import NotFound from './views/NotFound';
-import News from './views/News';
-import Articles from './views/Articles';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,9 +18,10 @@ root.render(
     <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/contact' element={<Contact />} />
+          <Route path='/services' element={<Services />} />
           <Route path='/news' element={<News />}  />
-          <Route path='/articles' element={<Articles />}  />
+          <Route path='/newsDetails' element={<NewsDetails />}  />
+          <Route path='/contact' element={<Contact />} />
           <Route path='/*' element={<NotFound />} />
         </Routes>
     </BrowserRouter>
