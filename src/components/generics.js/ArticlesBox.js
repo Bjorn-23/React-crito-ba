@@ -1,22 +1,22 @@
 import React from 'react'
 
-const ArticlesBox = () => {
+const ArticlesBox = ({url, img, altText, date, month, category, title, text}) => {
     return (
 
-        <a className="grid-item" href="news.html">
+        <a className="grid-item" href={url}>
             <div className="img-wrapper">
-                <img className="article-img relative" src={img_17mar}
-                    alt="a screen displaying 3 columns: examples, capabilities and limitations" />
+                <img className="article-img relative" src={img}
+                    alt={altText} />
                 <div className="date-wrapper">
                     <div className="yellow-square absolute">
-                        <div className="date">17</div>
-                        <p className="month">Mar</p>
+                        <div className="date">{date}</div>
+                        <p className="month">{month}</p>
                     </div>
                 </div>
             </div>
-            <p className="subject">Business</p>
-            <h3 className="article-title">How To Implement Chat GPT In Your Projects</h3>
-            <p className="lorem">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto sed hic libero.</p>
+            <p className="subject">{category}</p>
+            <h3 className="article-title">{title}</h3>
+            <p className="lorem">{text}</p>
         </a>
 
     )

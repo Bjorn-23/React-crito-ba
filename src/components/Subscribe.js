@@ -13,7 +13,7 @@ const Subscribe = () => {
                 <div className="right">
                     
                     <form id="sub-form" method="get" action="form-results.html">
-                        <input type="email" className="email" name="email" id="sub-email" autocomplete="on" placeholder="username@domain.com"
+                        <input type="email" className="email" name="email" id="sub-email" autoComplete="on" placeholder="username@domain.com"
                             required></input>
                         <button type="submit" className="submit btn-yellow">Subscribe<i
                                 className="fa-regular fa-arrow-up-right"></i></button>

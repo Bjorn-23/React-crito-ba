@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Inter:wght@300;400;500;700;900&display=swap");
 html,
 body {
-  overflow-x: hidden;
   box-sizing: border-box;
 }
 html a,
@@ -2749,4 +2748,29 @@ body .container {
   border-radius: 25px;
   padding: 50px;
   margin-bottom: 40px;
+}
+
+.wrapper .pageNotFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 10px 60px;
+  gap: 40px;
+}
+@media (min-width: 48rem) {
+  .wrapper .pageNotFound {
+    padding: 30px;
+  }
+}
+@media (min-width: 75rem) {
+  .wrapper .pageNotFound {
+    padding: 60px;
+  }
+}
+.wrapper .pageNotFound img {
+  max-width: 100%;
+}
+.wrapper .pageNotFound h1 {
+  text-align: center;
 }

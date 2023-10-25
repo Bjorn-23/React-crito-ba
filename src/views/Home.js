@@ -18,22 +18,20 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <div className="wrapper">
-
-    <Header />
-    <Showcase />
-    <Clients />
-    <Features />
-    <AboutCompany />
-    <Services />
-    <WhyChooseUs />
-    <Projects />
-    <Team />
-    <Testimonials />
-    <ArticlesNews />
-    <Subscribe />
-    <Footer />
-
-  </div>
+      <Header />
+      <Showcase />
+      <Clients />
+      <Features />
+      <AboutCompany />
+      <Services />
+      <WhyChooseUs />
+      <Projects />
+      <Team />
+      <Testimonials />
+      <ArticlesNews />
+      <Subscribe />
+      <Footer />
+    </div>
   )
 }
 
