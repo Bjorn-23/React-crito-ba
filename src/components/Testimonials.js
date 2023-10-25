@@ -1,7 +1,7 @@
 import React from 'react'
-import TestimonialsBox from './generics.js/TestimonialsBox'
-import SectionTitle from './generics.js/SectionTitle'
-import Button from './generics.js/Button'
+import TestimonialsBox from './generics/TestimonialsBox'
+import SectionTitle from './generics/SectionTitle'
+import Button from './generics/Button'
 
 import img_C from '../assets/img/testimonials/c-warren.png'
 import img_A from '../assets/img/testimonials/a-tulling.png'

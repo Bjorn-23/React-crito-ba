@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div className="wrapper">
     <Header />
-    <Breadcrumbs url="/contact" page="Contact"  />
+    <Breadcrumbs url="/contact" end page="Contact"  />
     <ContactInfo />
     <Footer />
   </div>

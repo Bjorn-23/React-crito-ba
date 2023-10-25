@@ -1,11 +1,11 @@
 import React from 'react'
-import FeaturesBox from './generics.js/FeaturesBox'
+import FeaturesBox from './generics/FeaturesBox'
 import img_Handshake from '../assets/img/features/handshake.svg'
 import img_Lightbulb from '../assets/img/features/lightbulb.svg'
 import img_Graph from '../assets/img/features/graph.svg'
 import img_Factory from '../assets/img/features/factory.svg'
-import SectionTitle from './generics.js/SectionTitle'
-import Button from './generics.js/Button'
+import SectionTitle from './generics/SectionTitle'
+import Button from './generics/Button'
 
 const Features = () => {
   return (

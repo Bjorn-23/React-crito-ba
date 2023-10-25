@@ -1,14 +1,15 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ServiceBox = ({title, description, url}) => {
   return (
 
-    <a className="grid-item" href={url}>
+    <Link className="grid-item" href={url}>
         <div className="box-line">_______</div>
         <h3>{title}</h3>
         <p>{description}</p>
         <div className="btn-arw-r"><i className="fa-light fa-arrow-right"></i></div>
-    </a>
+    </Link>
   )
 }
 

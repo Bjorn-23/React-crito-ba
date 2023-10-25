@@ -1,9 +1,10 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ArticlesBox = ({url, img, altText, date, month, category, title, text}) => {
     return (
 
-        <a className="grid-item" href={url}>
+        <Link className="grid-item" href={url}>
             <div className="img-wrapper">
                 <img className="article-img relative" src={img}
                     alt={altText} />
@@ -17,7 +18,7 @@ const ArticlesBox = ({url, img, altText, date, month, category, title, text}) =>
             <p className="subject">{category}</p>
             <h3 className="article-title">{title}</h3>
             <p className="lorem">{text}</p>
-        </a>
+        </Link>
 
     )
 }

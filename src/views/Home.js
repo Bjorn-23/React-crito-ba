@@ -5,7 +5,7 @@ import Showcase from '../components/Showcase'
 import Clients from '../components/Clients'
 import Features from '../components/Features'
 import AboutCompany from '../components/AboutCompany'
-import Services from '../components/Services'
+import ServicesComponent from '../components/ServicesComponent'
 import WhyChooseUs from '../components/WhyChooseUs'
 import Projects from '../components/Projects'
 import Team from '../components/Team'
@@ -23,7 +23,7 @@ const Home = () => {
       <Clients />
       <Features />
       <AboutCompany />
-      <Services />
+      <ServicesComponent />
       <WhyChooseUs />
       <Projects />
       <Team />

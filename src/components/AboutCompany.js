@@ -2,8 +2,8 @@ import React from 'react'
 
 import img_SamB from '../assets/img/company-intro/sam-b.png'
 import img_SquigglyLines from '../assets/img/company-intro/white-squiggly-lines-sam-b.svg'
-import SectionTitle from './generics.js/SectionTitle'
-import Button from './generics.js/Button'
+import SectionTitle from './generics/SectionTitle'
+import Button from './generics/Button'
 
 
 const AboutCompany = () => {

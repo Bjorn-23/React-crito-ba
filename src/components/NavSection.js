@@ -1,5 +1,5 @@
 import React from 'react'
-import Button from './generics.js/Button'
+import Button from './generics/Button'
 import { NavLink } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 

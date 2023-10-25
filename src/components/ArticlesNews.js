@@ -1,7 +1,7 @@
 import React from 'react'
-import ArticlesBox from './generics.js/ArticlesBox'
-import Button from './generics.js/Button'
-import SectionTitle from './generics.js/SectionTitle'
+import ArticlesBox from './generics/ArticlesBox'
+import Button from './generics/Button'
+import SectionTitle from './generics/SectionTitle'
 
 import img_25mar from '../assets/img/articles-news/25mar.png'
 import img_17mar from '../assets/img/articles-news/17mar.png'
